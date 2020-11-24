@@ -1,7 +1,8 @@
 import React from 'react'
 import Form from "../Form/Form";
 import treefrog from "../images/treefrog.jpg";
-import css from "./Home.module.css"
+import css from "./Home.module.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -11,18 +12,18 @@ const Home = () => {
           </div>
           <div>
           <ul className={css.categoriesList}>
-            <a className={css.clickBlock} href="/foo">
+            <Link className={css.clickBlock} to="/foo">
               <li className={css.category1}>Baby to 2</li>
-            </a>
-            <a className={css.clickBlock} href="/foo">
+            </Link>
+            <Link className={css.clickBlock} to="/foo">
               <li className={css.category2}>Ages 3 to 5</li>
-            </a>
-            <a className={css.clickBlock} href="/foo">
+            </Link>
+            <Link className={css.clickBlock} to="/foo">
               <li className={css.category3}>Ages 6 to 8</li>
-            </a>
-            <a className={css.clickBlock} href="/foo">
+            </Link>
+            <Link className={css.clickBlock} to="/foo">
               <li className={css.category4}>Ages 9 to 12</li>
-            </a>
+            </Link>
           </ul>
           </div>
         </div>

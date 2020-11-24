@@ -1,31 +1,32 @@
 import React from 'react'
 import logo from "../images/logo-header.png";
-import css from "./Header.module.css"
+import css from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className={css.headerAll}>
+    <header className={css.headerAll}>s
       <nav>
         <div>
           {/* logo with small size and route to the home page when click */}
-          <a href="/"><img className={css.headerLogo} src={logo} alt="logo-header" /></a>
+          <Link to="/"><img className={css.headerLogo} src={logo} alt="logo-header" /></Link>
         </div>
         <ul className={css.navbarList}>
           {/* these links should show you how to connect up a link to a specific route */}
           <li className={css.navContent}>
-            <a className={css.linkStyle} href="/">Home</a>
+            <Link className={css.linkStyle} to="/">Home</Link>
           </li>
           <li className={css.navContent}>
-            <a className={css.linkStyle} href="/foo">All Books</a>
+            <Link className={css.linkStyle} to="/foo">All Books</Link>
           </li>
           <li className={css.navContent}>
-            <a className={css.linkStyle} href="/foo">By Age</a>
+            <Link className={css.linkStyle} to="/foo">By Age</Link>
           </li>
           <li className={css.navContent}>
-            <a className={css.linkStyle} href="/aboutus">About Us</a>
+            <Link className={css.linkStyle} to="/aboutus">About Us</Link>
           </li>
           <li className={css.navContent}>
-            <a className={css.linkStyle} href="/contactus">Contact Us</a>
+            <Link className={css.linkStyle} to="/contactus">Contact Us</Link>
           </li>
         </ul>
       </nav>
