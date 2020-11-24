@@ -1,0 +1,66 @@
+.headerAll {
+  display: flex;
+  justify-content: center;
+}
+
+.headerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.navbarList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+}
+
+.linkStyle {
+  display: block;
+  text-decoration-line: none;
+  color: #4d1f00;
+}
+
+.navContent {
+  background-color: #b3d9ff;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Nerko One', cursive;
+  text-align: center;
+}
+
+.navContent:hover {
+  background-color: #3399ff;
+}
+
+@media (min-width: 500px) {
+  .navbarList {
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+  }
+}
+
+@media (min-width: 700px) {
+  .navbarList {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+@media (min-width: 800px) {
+  .navbarList {
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 60px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .navbarList {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 60px;
+  }
+}

@@ -1,0 +1,165 @@
+.homeAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.titleDiv {
+  padding-left: 22%;
+  padding-right: 20%;
+  color: #4d1f00;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+}
+
+.clickBlock {
+  display: block;
+  text-decoration-line: none;
+  color: white;
+}
+
+.categoriesList {
+  padding-left: auto;
+  padding-right: auto;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.category1 {
+  background-color: #f7941e;
+  border: 5px solid  #f7941e;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: right;
+  background-image: url(../images/babyCategory.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.category1:hover {
+  border: 5px solid  #3399ff;
+}
+
+.category2 {
+  background-color: #f1592a;
+  border: 5px solid  #f1592a;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: right;
+  background-image: url(../images/3to5Category.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.category2:hover {
+  border: 5px solid  #3399ff;
+}
+
+.category3 {
+  background-color: #dd7995;
+  border: 5px solid  #dd7995;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: right;
+  background-image: url(../images/6to8Category.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.category3:hover {
+  border: 5px solid  #3399ff;
+}
+
+.category4 {
+  background-color: #429d42;
+  border: 5px solid  #429d42;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 40px;
+  font-family: 'Luckiest Guy', cursive;
+  text-align: right;
+  background-image: url(../images/9to12Category.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.category4:hover {
+  border: 5px solid  #3399ff;
+}
+
+@media (min-width: 500px) {
+  .category1 {
+    width: 250px;
+    height: 60px;
+  }
+  .category2 {
+    width: 250px;
+    height: 60px;
+  }
+  .category3 {
+    width: 250px;
+    height: 60px;
+  }
+  .category4 {
+    width: 250px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 700px) {
+  .categoriesList {
+    grid-template-columns: 1fr;
+  }
+  .category1 {
+    width: 300px;
+    height: 100px;
+  }
+  .category2 {
+    width: 300px;
+    height: 100px;
+  }
+  .category3 {
+    width: 300px;
+    height: 100px;
+  }
+  .category4 {
+    width: 300px;
+    height: 100px;
+  }
+}
+
+@media (min-width: 900px) {
+  .categoriesList {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -6,6 +6,10 @@ import Foo from "./Foo/Foo.jsx";
 import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
+import Header from "./Header/Header.jsx";
+import Footer from "./Footer/Footer.jsx";
+import AboutUs from "./AboutUs/AboutUs.jsx";
+import ContactUs from "./ContactUs/ContactUs.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -19,29 +23,13 @@ const externalContent = {
 function App() {
   return (
     <>
-      <header>
-        <nav>
-          <ul>
-            {/* these links should show you how to connect up a link to a specific route */}
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/foo">Foo</Link>
-            </li>
-            <li>
-              <Link to="/bar/hats/sombrero">Bar</Link>
-            </li>
-            <li>
-              <Link to="/baz">Baz</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/aboutus" exact component={AboutUs} />
+        <Route path="/contactus" exact component={ContactUs} />
         <Route path="/foo" exact component={Foo} />
         {/* passing parameters via a route path */}
         <Route
@@ -63,6 +51,7 @@ function App() {
         />
         <Route component={Error} />
       </Switch>
+      <Footer />
     </>
   );
 }

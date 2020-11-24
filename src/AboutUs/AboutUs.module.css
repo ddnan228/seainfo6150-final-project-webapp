@@ -1,0 +1,19 @@
+.allDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.textDiv {
+  padding-left: 22%;
+  padding-right: 20%;
+  color: #4d1f00;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+}
+
+.imageDiv {
+  padding: 20px;
+}

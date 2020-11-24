@@ -1,0 +1,25 @@
+.allDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.textDiv {
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 30px;
+  font-weight: bolder;
+  color: red;
+  font-family: 'Caveat', cursive;
+}
+
+.imageDiv {
+  padding: auto;
+}
+
+@media (max-width: 700px) {
+  .imageDiv {
+    width: 50%;
+  }
+}
