@@ -5,6 +5,15 @@
   text-align: center;
 }
 
+.titleDiv {
+  padding-left: 22%;
+  padding-right: 20%;
+  color: #4d1f00;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+}
+
 .textDiv {
   padding-left: 22%;
   padding-right: 20%;

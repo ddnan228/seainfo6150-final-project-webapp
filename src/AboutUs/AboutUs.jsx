@@ -8,7 +8,7 @@ const AboutUs = () => {
     return (
         <div className={css.allDiv}>
           <div className={css.textDiv}>
-            <h2>About Us</h2>
+            <h2>About Us - Next Book for Kids</h2>
             <p>Our website is focus on collecting children's books information and categoried by ages. Welcome to our website to find next book for your kids! You can also leave reviews for those books you have read before.</p>
           </div>
           <picture className={css.imageDiv}>

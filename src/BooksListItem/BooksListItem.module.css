@@ -1,0 +1,23 @@
+.listItem {
+  height:380px;
+  border-radius: 15px;
+  border: 5px solid  #f7941e;
+  background-color: #f7941e;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listItem:hover {
+  border: 5px solid  #f1592a;
+  background-color: #dd7995;
+}
+
+.titleStyle {
+  color: #4d1f00;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Nerko One', cursive;
+}

@@ -4,8 +4,10 @@ import css from "./ContactUs.module.css";
 const ContactUs = () => {
     return (
         <div className={css.allDiv}>
+          <div className={css.titleDiv}>
+            <h1>Contact Information - Next Book for Kids</h1>
+          </div>
           <div className={css.textDiv}>
-            <h1>Contact Information</h1>
             <h2>Address</h2>
             <p>1225 Kids road, Books, CA, 94000</p>
             <h2>Call At</h2>

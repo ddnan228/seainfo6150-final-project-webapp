@@ -1,0 +1,55 @@
+.wholeDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.titleDiv {
+  padding-left: 22%;
+  padding-right: 20%;
+  color: #4d1f00;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Caveat', cursive;
+}
+
+.booksList {
+  padding-left: 15%;
+  padding-right: 15%;
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  grid-auto-rows: 1fr;
+}
+
+.clickBlock {
+  text-decoration-line: none;
+}
+
+@media (min-width: 500px) {
+  .booksList {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 700px) {
+  .booksList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .booksList {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+  .booksList {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}

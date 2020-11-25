@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className={css.headerAll}>s
+    <header className={css.headerAll}>
       <nav>
         <div>
           {/* logo with small size and route to the home page when click */}
@@ -17,7 +17,7 @@ const Header = () => {
             <Link className={css.linkStyle} to="/">Home</Link>
           </li>
           <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/foo">All Books</Link>
+            <Link className={css.linkStyle} to="/allbooks">All Books</Link>
           </li>
           <li className={css.navContent}>
             <Link className={css.linkStyle} to="/foo">By Age</Link>
