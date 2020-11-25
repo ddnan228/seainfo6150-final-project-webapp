@@ -84,13 +84,31 @@ function App() {
         <Route path="/" exact component={Home} />
         <Route path="/aboutus" exact component={AboutUs} />
         <Route path="/contactus" exact component={ContactUs} />
-        <Route path="/allbooks">
-          {displayAllBooks}
-        </Route>
-        <Route path="/babyto2">{displayBabyTo2}</Route>
-        <Route path="/3to5">{display3To5}</Route>
-        <Route path="/6to8">{display6To8}</Route>
-        <Route path="/9to12">{display9To12}</Route>
+        <Route
+          path="/allbooks"
+          exact
+          render={() => displayAllBooks}
+        />
+        <Route
+          path="/babyto2"
+          exact
+          render={() => displayBabyTo2}
+        />
+        <Route
+          path="/3to5"
+          exact
+          render={() => display3To5}
+        />
+        <Route
+          path="/6to8"
+          exact
+          render={() => display6To8}
+        />
+        <Route
+          path="/9to12"
+          exact
+          render={() => display9To12}
+        />
         <Route path="/foo" exact component={Foo} />
         {/* passing parameters via a route path */}
         <Route
