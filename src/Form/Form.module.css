@@ -1,0 +1,19 @@
+.divStyle {
+  padding: 20px;
+  font-size: 15px;
+  color: #4d1f00;
+  text-align: left;
+  line-height: 25px;
+}
+
+
+.reviewTextField {
+  height: 100px;
+  width: 200px;
+}
+
+@media (min-width: 900px) {
+  .reviewTextField {
+    width: 400px;
+  }
+}
