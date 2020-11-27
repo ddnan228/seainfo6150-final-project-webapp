@@ -3,7 +3,6 @@ import { Switch, Route, Link } from "react-router-dom";
 import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
-import Foo from "./Foo/Foo.jsx";
 import Error from "./Error/Error.jsx";
 import Header from "./Header/Header.jsx";
 import Footer from "./Footer/Footer.jsx";
