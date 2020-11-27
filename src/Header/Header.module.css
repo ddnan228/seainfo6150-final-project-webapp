@@ -51,16 +51,9 @@
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 900px) {
   .navbarList {
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 60px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .navbarList {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 60px;
   }
 }

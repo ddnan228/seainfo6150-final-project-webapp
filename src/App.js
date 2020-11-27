@@ -4,7 +4,6 @@ import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
-import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Header from "./Header/Header.jsx";
 import Footer from "./Footer/Footer.jsx";
@@ -12,6 +11,7 @@ import AboutUs from "./AboutUs/AboutUs.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
 import BooksList from "./BooksList/BooksList.jsx";
 import Book from "./Book/Book.jsx";
+import ThankPage from "./ThankPage/ThankPage.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -110,7 +110,6 @@ function App() {
           exact
           render={() => display9To12}
         />
-        <Route path="/foo" exact component={Foo} />
         {/* passing parameters via a route path */}
         <Route
           path="/book/:categoryId/:bookId"
@@ -124,11 +123,7 @@ function App() {
             />
           )}
         />
-        <Route
-          path="/baz"
-          exact
-          render={() => <Baz content={externalContent} />}
-        />
+        <Route path="/thankyou" exact component={ThankPage} />
         <Route component={Error} />
       </Switch>
       <Footer />

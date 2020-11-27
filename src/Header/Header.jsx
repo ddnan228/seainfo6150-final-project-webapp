@@ -20,9 +20,6 @@ const Header = () => {
             <Link className={css.linkStyle} to="/allbooks">All Books</Link>
           </li>
           <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/foo">By Age</Link>
-          </li>
-          <li className={css.navContent}>
             <Link className={css.linkStyle} to="/aboutus">About Us</Link>
           </li>
           <li className={css.navContent}>

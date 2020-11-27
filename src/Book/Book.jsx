@@ -5,6 +5,7 @@ import BookCoverImage from "../BookCoverImage/BookCoverImage.jsx";
 import BookIntroduction from "../BookIntroduction/BookIntroduction.jsx"
 import BookDetails from "../BookDetails/BookDetails.jsx"
 import BookAuthor from "../BookAuthor/BookAuthor.jsx"
+import Form from "../Form/Form.jsx"
 
 const Book = (props) => {
   const [fetchedData, setFetchedData] = useState({});
@@ -45,6 +46,10 @@ const Book = (props) => {
             language={book.language}
             amazon={book.amazonUrl}
           />
+        </div>
+        <div className={css.formDiv}>
+          <h2 className={css.formTitle}>Have read this before? Please leave us a review!</h2>
+          <Form />
         </div>
       </div>
     );
