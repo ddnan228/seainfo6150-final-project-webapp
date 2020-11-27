@@ -10,7 +10,7 @@ const BooksList = props => {
       <div className={css.titleDiv}><h1>{props.pageTitle} - Next Book for Kids</h1></div>
       <ul className={css.booksList}>
         {props.books.map((book,index) => (
-          <Link className={css.clickBlock} to={"/bar/"+book.categoryId+"/"+book.bookId}>
+          <Link className={css.clickBlock} to={"/book/"+book.categoryId+"/"+book.bookId}>
             <li key={index}>
               <BooksListItem url={book.image._url} title={book.title} />
             </li>

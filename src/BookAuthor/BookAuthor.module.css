@@ -1,0 +1,24 @@
+.authorStyle {
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #ffcc99;
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+  color: #4d1f00;
+  box-shadow: 5px 5px 10px #ffd9b3;
+  border: 5px solid #ffbf80;
+}
+
+.title {
+  font-family: 'Balsamiq Sans', cursive;
+}
+.authorName {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+.aboutAuthor {
+  font-family: 'Balsamiq Sans', cursive;
+}

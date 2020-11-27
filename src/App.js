@@ -4,7 +4,6 @@ import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
-import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import Header from "./Header/Header.jsx";
@@ -12,6 +11,7 @@ import Footer from "./Footer/Footer.jsx";
 import AboutUs from "./AboutUs/AboutUs.jsx";
 import ContactUs from "./ContactUs/ContactUs.jsx";
 import BooksList from "./BooksList/BooksList.jsx";
+import Book from "./Book/Book.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -43,6 +43,7 @@ function App() {
   let display3To5;
   let display6To8;
   let display9To12;
+
 
   if(!isEmpty(fetchedData)) {
     var category0to2 = Object.values(fetchedData.babyTo2);
@@ -112,14 +113,14 @@ function App() {
         <Route path="/foo" exact component={Foo} />
         {/* passing parameters via a route path */}
         <Route
-          path="/bar/:categoryId/:productId"
+          path="/book/:categoryId/:bookId"
           exact
           render={({ match }) => (
             // getting the parameters from the url and passing
             // down to the component as props
-            <Bar
+            <Book
               categoryId={match.params.categoryId}
-              productId={match.params.productId}
+              bookId={match.params.bookId}
             />
           )}
         />

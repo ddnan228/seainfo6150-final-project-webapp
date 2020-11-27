@@ -1,0 +1,17 @@
+.bookCoverStyle {
+  width: 320px;
+  height: 320px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #ffb3b3;
+  box-shadow: 5px 5px 10px #ffcccc;
+  border: 5px solid #ff9999;
+}
+
+.bookCoverStyle img {
+  padding: 10px;
+  max-width: 90%;
+  max-height: 90%;
+  margin: auto;
+  border-radius: 5%;
+}
