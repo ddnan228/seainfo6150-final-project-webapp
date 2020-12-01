@@ -7,8 +7,10 @@ import logoLarge from "../images/AboutUsLogo/Logo-large.png";
 const AboutUs = () => {
     return (
         <div className={css.allDiv}>
-          <div className={css.textDiv}>
+          <div className={css.titleDiv}>
             <h2>About Us - Next Book for Kids</h2>
+          </div>
+          <div className={css.textDiv}>
             <p>Our website is focus on collecting children's books information and categoried by ages. Welcome to our website to find next book for your kids! You can also leave reviews for those books you have read before.</p>
           </div>
           <picture className={css.imageDiv}>
