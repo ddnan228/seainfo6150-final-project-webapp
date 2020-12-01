@@ -123,6 +123,7 @@ function App() {
           )}
         />
         <Route path="/thankyou" exact component={ThankPage} />
+        <Route path="/error" exact component={Error} />
         <Route component={Error} />
       </Switch>
       <Footer />
