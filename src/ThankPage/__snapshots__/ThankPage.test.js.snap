@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders the AboutUs component correctly 1`] = `
+exports[`renders the ThankPage component correctly 1`] = `
 <div>
   <div
     class="thankDiv"
