@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
-import { Switch, Route, Link } from "react-router-dom";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Switch, HashRouter, Route, Link } from "react-router-dom";
 import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
@@ -69,55 +68,58 @@ function App() {
 
   return (
     <>
-      <Header />
+
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/aboutus" exact component={AboutUs} />
-        <Route path="/contactus" exact component={ContactUs} />
-        <Route
-          path="/allbooks"
-          exact
-          render={() => displayAllBooks}
-        />
-        <Route
-          path="/babyto2"
-          exact
-          render={() => displayBabyTo2}
-        />
-        <Route
-          path="/3to5"
-          exact
-          render={() => display3To5}
-        />
-        <Route
-          path="/6to8"
-          exact
-          render={() => display6To8}
-        />
-        <Route
-          path="/9to12"
-          exact
-          render={() => display9To12}
-        />
-        {/* passing parameters via a route path */}
-        <Route
-          path="/book/:categoryId/:bookId"
-          exact
-          render={({ match }) => (
-            // getting the parameters from the url and passing
-            // down to the component as props
-            <Book
-              categoryId={match.params.categoryId}
-              bookId={match.params.bookId}
-            />
-          )}
-        />
-        <Route path="/thankyou" exact component={ThankPage} />
-        <Route path="/error" exact component={Error} />
-        <Route component={Error} />
-      </Switch>
+      <HashRouter>
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/aboutus" exact component={AboutUs} />
+          <Route path="/contactus" exact component={ContactUs} />
+          <Route
+            path="/allbooks"
+            exact
+            render={() => displayAllBooks}
+          />
+          <Route
+            path="/babyto2"
+            exact
+            render={() => displayBabyTo2}
+          />
+          <Route
+            path="/3to5"
+            exact
+            render={() => display3To5}
+          />
+          <Route
+            path="/6to8"
+            exact
+            render={() => display6To8}
+          />
+          <Route
+            path="/9to12"
+            exact
+            render={() => display9To12}
+          />
+          {/* passing parameters via a route path */}
+          <Route
+            path="/book/:categoryId/:bookId"
+            exact
+            render={({ match }) => (
+              // getting the parameters from the url and passing
+              // down to the component as props
+              <Book
+                categoryId={match.params.categoryId}
+                bookId={match.params.bookId}
+              />
+            )}
+          />
+          <Route path="/thankyou" exact component={ThankPage} />
+          <Route path="/error" exact component={Error} />
+          <Route component={Error} />
+        </Switch>
+      </HashRouter>
       <Footer />
     </>
   );
