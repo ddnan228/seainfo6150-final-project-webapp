@@ -1,6 +1,4 @@
 import React from 'react'
-import Form from "../Form/Form";
-import treefrog from "../images/treefrog.jpg";
 import css from "./Home.module.css";
 import { Link } from "react-router-dom";
 

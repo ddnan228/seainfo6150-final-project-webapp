@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Form component correctly 1`] = `
+<div>
+  <div
+    class="divStyle"
+  >
+    <form>
+      <label
+        for="nameId"
+      >
+        Your preferred name (required):
+      </label>
+      <br />
+      <input
+        id="nameId"
+        name="name"
+        required=""
+        type="text"
+      />
+      <br />
+      <label
+        for="emailId"
+      >
+        Your email (required):
+      </label>
+      <br />
+      <input
+        id="emailId"
+        name="email"
+        placeholder="doudou@example.com"
+        required=""
+        type="email"
+      />
+      <br />
+      <label
+        for="phoneId"
+      >
+        Your phone number (required):
+      </label>
+      <br />
+      <input
+        id="phoneId"
+        name="phone"
+        placeholder="123-45-678"
+        required=""
+        type="tel"
+      />
+      <br />
+      <label
+        for="kidsNumId"
+      >
+        How many kids in your family?
+      </label>
+      <br />
+      <input
+        id="kidsNumId"
+        name="kidsNum"
+        type="number"
+      />
+      <br />
+      <label
+        for="booksNumId"
+      >
+        How many books do you purchase for your kids every month?
+      </label>
+      <br />
+      <input
+        id="booksNumId"
+        name="booksNum"
+        type="number"
+      />
+      <br />
+      <label
+        for="kidsGenderId"
+      >
+        What is/are the gender of your kid/kids?
+      </label>
+      <br />
+      <select
+        id="kidsGenderId"
+        name="kidsGender"
+      >
+        <option
+          value="boy"
+        >
+          Boy
+        </option>
+        <option
+          value="girl"
+        >
+          Girl
+        </option>
+        <option
+          value="both"
+        >
+          Both
+        </option>
+      </select>
+      <br />
+      <label
+        for="havingBookId"
+      >
+        Are you still having this book in your family?
+      </label>
+      <br />
+      <select
+        id="havingBookId"
+        name="havingBook"
+      >
+        <option
+          value="yes"
+        >
+          Yes
+        </option>
+        <option
+          value="no"
+        >
+          No
+        </option>
+      </select>
+      <br />
+      Where did you read this book?
+      <br />
+      <input
+        id="placeId1"
+        name="place"
+        type="radio"
+        value="home"
+      />
+      <label
+        for="placeId1"
+      >
+        Home
+      </label>
+      <br />
+      <input
+        id="placeId2"
+        name="place"
+        type="radio"
+        value="library"
+      />
+      <label
+        for="placeId2"
+      >
+        Library
+      </label>
+      <br />
+      <input
+        id="placeId3"
+        name="place"
+        type="radio"
+        value="school"
+      />
+      <label
+        for="placeId3"
+      >
+        School or preschool
+      </label>
+      <br />
+      <input
+        id="placeId4"
+        name="place"
+        type="radio"
+        value="friendplace"
+      />
+      <label
+        for="placeId4"
+      >
+        Friend's place
+      </label>
+      <br />
+      <input
+        id="placeId5"
+        name="place"
+        type="radio"
+        value="others"
+      />
+      <label
+        for="placeId5"
+      >
+        Others
+      </label>
+      <br />
+      <label
+        for="reviewId"
+      >
+        Your review about this book (required, 1000 chars max):
+      </label>
+      <br />
+      <textarea
+        class="reviewTextField"
+        id="reviewId"
+        maxlength="1000"
+        name="review"
+        required=""
+      />
+      <br />
+      <input
+        type="submit"
+        value="Review your inputs"
+      />
+    </form>
+  </div>
+</div>
+`;

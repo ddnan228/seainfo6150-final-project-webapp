@@ -14,9 +14,9 @@ const AboutUs = () => {
             <p>Our website is focus on collecting children's books information and categoried by ages. Welcome to our website to find next book for your kids! You can also leave reviews for those books you have read before.</p>
           </div>
           <picture className={css.imageDiv}>
-            <source media="(max-width: 650px)" srcset={logoSmall} />
-            <source media="(max-width: 900px)" srcset={logoMedium} />
-            <source media="(min-width: 1100px)" srcset={logoLarge} />
+            <source media="(max-width: 650px)" srcSet={logoSmall} />
+            <source media="(max-width: 900px)" srcSet={logoMedium} />
+            <source media="(min-width: 1100px)" srcSet={logoLarge} />
             <img src={logoMedium} alt="responsive logo" />
           </picture>
           <div className={css.textDiv}>

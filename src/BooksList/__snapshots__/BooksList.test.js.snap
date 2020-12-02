@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BooksList component correctly 1`] = `
+<div>
+  <div
+    class="wholeDiv"
+  >
+    <div
+      class="titleDiv"
+    >
+      <h1>
+        Books for baby to 2 years old
+         - Next Book for Kids
+      </h1>
+    </div>
+    <ul
+      class="booksList"
+    >
+      <a
+        class="clickBlock"
+        href="/book/babyTo2/0001-Potty"
+      >
+        <li>
+          <div
+            class="listItem"
+          >
+            <div
+              class="imageStyle"
+            >
+              <img
+                alt="Potty"
+                src="https://images-na.ssl-images-amazon.com/images/I/9195S4FTnOL.jpg"
+              />
+            </div>
+            <p
+              class="titleStyle"
+            >
+              Potty
+            </p>
+          </div>
+        </li>
+      </a>
+      <a
+        class="clickBlock"
+        href="/book/babyTo2/0002-TouchThinkLearn-Fly"
+      >
+        <li>
+          <div
+            class="listItem"
+          >
+            <div
+              class="imageStyle"
+            >
+              <img
+                alt="TouchThinkLearn: Fly!"
+                src="https://images-na.ssl-images-amazon.com/images/I/41m71V1vZjL.jpg"
+              />
+            </div>
+            <p
+              class="titleStyle"
+            >
+              TouchThinkLearn: Fly!
+            </p>
+          </div>
+        </li>
+      </a>
+    </ul>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BookAuthor component correctly 1`] = `
+<div>
+  <div
+    class="authorStyle"
+  >
+    <h2
+      class="title"
+    >
+      Author
+    </h2>
+    <h2
+      class="authorName"
+    >
+      Leslie Patricelli
+    </h2>
+    <p
+      class="aboutAuthor"
+    >
+      Leslie Patricelli is the author-illustrator of a series of best-selling board books about everybody’s favorite bald baby. She is also the creator of the picture books Faster! Faster!, Bigger! Bigger!, and the Boston Globe–Horn Book Honor Book Higher! Higher!, among other books for children. She lives in Idaho.
+    </p>
+  </div>
+</div>
+`;

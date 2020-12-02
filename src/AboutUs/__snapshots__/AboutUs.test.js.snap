@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AboutUs component correctly 1`] = `
+<div>
+  <div
+    class="allDiv"
+  >
+    <div
+      class="titleDiv"
+    >
+      <h2>
+        About Us - Next Book for Kids
+      </h2>
+    </div>
+    <div
+      class="textDiv"
+    >
+      <p>
+        Our website is focus on collecting children's books information and categoried by ages. Welcome to our website to find next book for your kids! You can also leave reviews for those books you have read before.
+      </p>
+    </div>
+    <picture
+      class="imageDiv"
+    >
+      <source
+        media="(max-width: 650px)"
+        srcset="Logo-small.png"
+      />
+      <source
+        media="(max-width: 900px)"
+        srcset="Logo-medium.png"
+      />
+      <source
+        media="(min-width: 1100px)"
+        srcset="Logo-large.png"
+      />
+      <img
+        alt="responsive logo"
+        src="Logo-medium.png"
+      />
+    </picture>
+    <div
+      class="textDiv"
+    >
+      <p>
+        This website is also a web design project of course INFO6150 Web Design and User Experience Engineering at Northeastern University. This website is designed and implemented with HTML, JaveScript, React and CSS.
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Footer component correctly 1`] = `
+<div>
+  <footer
+    class="footerStyle"
+  >
+    <p>
+      Author: Doudou Nan
+      <br />
+      @All the images and content are downloaded or fetched from Internet.
+    </p>
+  </footer>
+</div>
+`;

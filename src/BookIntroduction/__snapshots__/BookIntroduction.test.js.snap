@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BookIntroduction component correctly 1`] = `
+<div>
+  <div
+    class="introductionStyle"
+  >
+    <h2>
+      Introduction
+    </h2>
+    There comes a point in a toddler’s life when going in one’s diaper is only one possible option, and the question must be raised: "Should I go in my potty?". With pitch-perfect humor and pacing, Leslie Patricelli follows the inner dialogue and hilarious actions of everyone’s favorite Baby, winding up with an over-the-top look of surprise and delight that will have both parents and offspring laughing out loud--"I did it!"
+  </div>
+</div>
+`;

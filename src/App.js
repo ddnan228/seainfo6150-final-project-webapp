@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import { Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router } from 'react-router-dom';
 import { isEmpty } from "lodash";
 
 import Home from "./Home/Home.jsx";
@@ -11,15 +12,6 @@ import ContactUs from "./ContactUs/ContactUs.jsx";
 import BooksList from "./BooksList/BooksList.jsx";
 import Book from "./Book/Book.jsx";
 import ThankPage from "./ThankPage/ThankPage.jsx";
-
-// here is some external content. look at the /baz route below
-// to see how this content is passed down to the components via props
-const externalContent = {
-  id: "article-1",
-  title: "An Article",
-  author: "April Bingham",
-  text: "Some text in the article",
-};
 
 function App() {
   const [fetchedData, setFetchedData] = useState({});

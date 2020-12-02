@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Home component correctly 1`] = `
+<div>
+  <div
+    class="homeAll"
+  >
+    <div
+      class="titleDiv"
+    >
+      <h1>
+        Home Page - Next Book for Kids
+      </h1>
+    </div>
+    <div>
+      <ul
+        class="categoriesList"
+      >
+        <a
+          class="clickBlock"
+          href="/babyto2"
+        >
+          <li
+            class="category1"
+          >
+            Baby to 2
+          </li>
+        </a>
+        <a
+          class="clickBlock"
+          href="/3to5"
+        >
+          <li
+            class="category2"
+          >
+            Ages 3 to 5
+          </li>
+        </a>
+        <a
+          class="clickBlock"
+          href="/6to8"
+        >
+          <li
+            class="category3"
+          >
+            Ages 6 to 8
+          </li>
+        </a>
+        <a
+          class="clickBlock"
+          href="/9to12"
+        >
+          <li
+            class="category4"
+          >
+            Ages 9 to 12
+          </li>
+        </a>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

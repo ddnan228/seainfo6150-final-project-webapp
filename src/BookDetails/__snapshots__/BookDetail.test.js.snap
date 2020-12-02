@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the BookCoverImage component correctly 1`] = `
+<div>
+  <div
+    class="details"
+  >
+    <h2>
+      Book Details
+    </h2>
+    <p>
+      Reading Level: 
+      Baby - 2 years
+      <br />
+      Pages: 
+      28
+      <br />
+      Item Weight: 
+      10.9 ounces
+      <br />
+      Language: 
+      English
+      <br />
+      ISBN-10: 
+      0763644765
+      <br />
+      ISBN-13: 
+      978-0763644765
+      <br />
+      Dimensions: 
+      7.06 x 0.58 x 7.06 inches
+      <br />
+      Publisher: 
+      Candlewick; Illustrated edition (September 14, 2010)
+    </p>
+    <a
+      class="link"
+      href="https://www.amazon.com/gp/product/B007HOOAH6/"
+      target="_blank"
+    >
+      --Buy it online at Amazon--
+    </a>
+  </div>
+</div>
+`;

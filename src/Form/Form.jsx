@@ -62,18 +62,18 @@ const Form = () => {
 
             Where did you read this book?<br />
             <input type="radio" id="placeId1" name="place" value="home" />
-            <label htmlfor="placeId1">Home</label><br />
+            <label htmlFor="placeId1">Home</label><br />
             <input type="radio" id="placeId2" name="place" value="library" />
-            <label htmlfor="placeId2">Library</label><br />
+            <label htmlFor="placeId2">Library</label><br />
             <input type="radio" id="placeId3" name="place" value="school" />
-            <label htmlfor="placeId3">School or preschool</label><br />
+            <label htmlFor="placeId3">School or preschool</label><br />
             <input type="radio" id="placeId4" name="place" value="friendplace" />
-            <label htmlfor="placeId4">Friend's place</label><br />
+            <label htmlFor="placeId4">Friend's place</label><br />
             <input type="radio" id="placeId5" name="place" value="others" />
-            <label htmlfor="placeId5">Others</label><br />
+            <label htmlFor="placeId5">Others</label><br />
 
             <label htmlFor="reviewId">Your review about this book (required, 1000 chars max):</label><br />
-            <textarea name="review" id="reviewId" className={css.reviewTextField} maxlength="1000" required /><br />
+            <textarea name="review" id="reviewId" className={css.reviewTextField} maxLength="1000" required /><br />
 
             <input type="submit" value="Review your inputs" />
           </form>

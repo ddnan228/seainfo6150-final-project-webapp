@@ -26,16 +26,6 @@ const Book = (props) => {
   let displayContent;
   if(!isEmpty(fetchedData)) {
     var book = fetchedData[props.categoryId][props.bookId];
-    var category;
-    if(book.categoryId==="babyTo2") {
-      category="For baby to 2 years old"
-    } else if(book.categoryId==="threeTo5") {
-      category="For 3 to 5 years old"
-    } else if(book.categoryId==="sixTo8") {
-      category="For 6 to 8 years old"
-    } else {
-      category="For 9 to 12 years old"
-    }
     displayContent = (
       <div className={css.wholeDiv}>
         <div className={css.pageTitle}>

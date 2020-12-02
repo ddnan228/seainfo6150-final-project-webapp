@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the AboutUs component correctly 1`] = `
+<div>
+  <div
+    class="thankDiv"
+  >
+    <h1>
+      Thank you for your valuable review!
+    </h1>
+  </div>
+</div>
+`;
