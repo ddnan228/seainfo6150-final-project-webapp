@@ -55,6 +55,7 @@ exports[`renders the Form component correctly 1`] = `
       <br />
       <input
         id="kidsNumId"
+        min="0"
         name="kidsNum"
         type="number"
       />
@@ -67,6 +68,7 @@ exports[`renders the Form component correctly 1`] = `
       <br />
       <input
         id="booksNumId"
+        min="0"
         name="booksNum"
         type="number"
       />
@@ -95,6 +97,11 @@ exports[`renders the Form component correctly 1`] = `
           value="both"
         >
           Both
+        </option>
+        <option
+          value="No kid"
+        >
+          No kid
         </option>
       </select>
       <br />

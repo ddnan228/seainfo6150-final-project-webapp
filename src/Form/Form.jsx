@@ -42,16 +42,17 @@ const Form = () => {
             <input type="tel" name="phone" id="phoneId" placeholder="123-45-678" placeholder="123-45-678" required /><br />
 
             <label htmlFor="kidsNumId">How many kids in your family?</label><br />
-            <input type="number" name="kidsNum" id="kidsNumId"/><br />
+            <input type="number" min="0" name="kidsNum" id="kidsNumId"/><br />
 
             <label htmlFor="booksNumId">How many books do you purchase for your kids every month?</label><br />
-            <input type="number" name="booksNum" id="booksNumId"/><br />
+            <input type="number" min="0" name="booksNum" id="booksNumId"/><br />
 
             <label htmlFor="kidsGenderId">What is/are the gender of your kid/kids?</label><br />
             <select name="kidsGender" id="kidsGenderId">
               <option value="boy">Boy</option>
               <option value="girl">Girl</option>
               <option value="both">Both</option>
+              <option value="No kid">No kid</option>
             </select><br />
 
             <label htmlFor="havingBookId">Are you still having this book in your family?</label><br />
