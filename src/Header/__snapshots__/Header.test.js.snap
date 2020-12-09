@@ -20,46 +20,46 @@ exports[`renders the Header component correctly 1`] = `
       <ul
         class="navbarList"
       >
-        <li
-          class="navContent"
+        <a
+          class="linkStyle"
+          href="/"
         >
-          <a
-            class="linkStyle"
-            href="/"
+          <li
+            class="navContent"
           >
             Home
-          </a>
-        </li>
-        <li
-          class="navContent"
+          </li>
+        </a>
+        <a
+          class="linkStyle"
+          href="/allbooks"
         >
-          <a
-            class="linkStyle"
-            href="/allbooks"
+          <li
+            class="navContent"
           >
             All Books
-          </a>
-        </li>
-        <li
-          class="navContent"
+          </li>
+        </a>
+        <a
+          class="linkStyle"
+          href="/aboutus"
         >
-          <a
-            class="linkStyle"
-            href="/aboutus"
+          <li
+            class="navContent"
           >
             About Us
-          </a>
-        </li>
-        <li
-          class="navContent"
+          </li>
+        </a>
+        <a
+          class="linkStyle"
+          href="/contactus"
         >
-          <a
-            class="linkStyle"
-            href="/contactus"
+          <li
+            class="navContent"
           >
             Contact Us
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </nav>
   </header>

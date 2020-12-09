@@ -13,18 +13,18 @@ const Header = () => {
         </div>
         <ul className={css.navbarList}>
           {/* these links should show you how to connect up a link to a specific route */}
-          <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/">Home</Link>
-          </li>
-          <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/allbooks">All Books</Link>
-          </li>
-          <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/aboutus">About Us</Link>
-          </li>
-          <li className={css.navContent}>
-            <Link className={css.linkStyle} to="/contactus">Contact Us</Link>
-          </li>
+          <Link className={css.linkStyle} to="/">
+            <li className={css.navContent}>Home</li>
+          </Link>
+          <Link className={css.linkStyle} to="/allbooks">
+            <li className={css.navContent}>All Books</li>
+          </Link>
+          <Link className={css.linkStyle} to="/aboutus">
+            <li className={css.navContent}>About Us</li>
+          </Link>
+          <Link className={css.linkStyle} to="/contactus">
+            <li className={css.navContent}>Contact Us</li>
+          </Link>
         </ul>
       </nav>
     </header>
